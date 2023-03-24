@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body {
+      background-color: slategrey;
+    }
+    .enroll-heading{
+      justify-content: center;
+         align-items: center;
+         text-align: center;
+      background-color: palevioletred;
+    }
+    h1 {
+      text-align: center;
+      margin: 10vh 0 0 0;
+      font-family: Open;
+      font-size: 35px;
+      background-color:hotpink;
+    }
+
+    .container {
+      width: 100%;
+      min-height: 100vh;
+    }
+
+    .center {
+      display: block;
+      justify-content: center;
+      align-items: center;
+    }
+
+    table {
+      table-layout: initial;
+      margin: 40px auto;
+      border-style: groove;
+      background-color: transparent;
+    }
+
+    table.list {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+      width: 100%;
+      border-radius: 0.5cm;
+    }
+
+    td {
+      border: 1px solid rgb(204, 200, 200);
+      text-align: left;
+      padding: 8px 15px;
+      background-color:cornflowerblue;
+    }
+
+    tr:nth-child(even),
+    table.list thread > tr {
+      background-color: #d0f1bf;
+    }
+
+    input[type="text"] {
+      width: 95%;
+      padding: 10px 10px;
+      margin: 0px 0 10px 0;
+      display: inline-block;
+      border: none;
+      border-radius: 6px;
+    }
+
+    input[type="submit"] {
+      background: #eee;
+      padding: 6px 12px;
+      margin: 15px 0 10px 100px;
+      display: inline-block;
+      border: rebeccapurple;
+      border-radius: 1.5cm;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+    }
+
+    input[type="submit"]:hover
+    button:hover {
+      background: rebeccapurple;
+    }
+
+    input[type="submit"] {
+      background: green;
+      color: white;
+      font-size: 1.2rem;
+      font-family: cursive;
+    }
+
+    tbody {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .input-part {
+      font-family: sans-serif;
+      font-size: 1.3rem;
+    }
+
+    button {
+      background: #0a3b1e;
+      color: white;
+      padding: 6px 12px;
+      margin: 15px 0 10px;
+      display: inline-block;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      outline: none;
+    }
